@@ -7,7 +7,7 @@ const maxRange = 100;
 
 const gcd = (x, y) => ((y === 0) ? x : gcd(y, x % y));
 
-const generateRound = () => {
+export const generateRound = () => {
   const number1 = getRandomNumber(minRange, maxRange);
   const number2 = getRandomNumber(minRange, maxRange);
   const question = `${number1} ${number2}`;
