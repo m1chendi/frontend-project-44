@@ -1,6 +1,7 @@
 import { getRandomNumber } from '../random.js';
 import run from '../index.js';
 
+const description = 'Find the greatest common divisor of given numbers.';
 const minRange = 1;
 const maxRange = 100;
 
