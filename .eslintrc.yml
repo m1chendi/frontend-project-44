@@ -3,7 +3,9 @@ env:
   browser: true
   node: true
 extends: 
+- 'eslint:recommended'
 - 'airbnb-base'
+- 'plugin;jest/recommended'
 overrides: []
 parserOptions:
   ecmaVersion: latest
